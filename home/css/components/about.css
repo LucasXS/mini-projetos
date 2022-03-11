@@ -1,0 +1,43 @@
+.about {
+    background-color: gold;
+}
+
+.aboutH2andP {
+    text-align: center;
+}
+
+.h2-about {
+    padding-top: 20px;
+    font-size: 40px;
+    font-family: 'Mrs Kichinto', sans-serif;
+}
+
+.h2-about:hover {
+    color: #3944dd;
+}
+
+
+.profileAndAbout {
+    display: flex;
+}
+
+.profile {
+    margin-top: 95px;
+    margin-left: 35px;
+    margin-right: 25px;
+    width: 320px;
+    height: 420px;
+    border-radius: 5%;
+    border: 2px solid black;
+}
+
+.containerProfile:hover {
+    transform: translateY(20px) scale(1.10);
+}
+
+.p {
+    padding: 10px;
+    font-size: 22px;
+    text-align: justify;
+    margin-right: 35px;
+}

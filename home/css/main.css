@@ -1,3 +1,9 @@
 body {
     font-family: "DM Sans", sans-serif;
 }
+
+.marktext {
+	background: #3944dd;
+    color: white;
+	padding: 2px;
+}
