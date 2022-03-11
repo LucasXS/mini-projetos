@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html lang="por">
+
 <head>
     <meta charset="UTF-8">
 
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/home/home.css">
     <link rel="stylesheet" href="css/home/button.css">
-    <link rel="stylesheet" href="css/home/header.css">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lamp</title>
 </head>
+
 <body>
     <header>
         <h1>Lampada</h1>
-        <nav class="nav-menu">
-            <ul class="ul-menu">
-                <li>Home</li>
-                <li>Sobre</li>
-                <li>Info</li>
-            </ul>
-        </nav>
     </header>
-    <main>        
-
+    <main>
+        <ul>
+            <li class="markdowm1">Quebrar = Duplo Click na Lampada</li>
+            <li class="markdowm2">Ligar = On </li>
+            <li class="markdowm3">Desligar = OFF</li>
+        </ul>
+        <div class="lampada">
+            <img src="/lamp/img/sample/turnOff.jpg" alt="Lampada desligada" id="lamp">
+        </div>
+        <div class="buttonDiv">
+            <button class="button turnOn" id="turnOn">ON</button>
+            <button class="button turnOff" id="turnOff">OFF</button>
+        </div>
     </main>
-    <script src="/lamp/js/main.js">         
-    </script>    
+    <script src="/lamp/js/main.js">
+    </script>
 </body>
+
 </html>
